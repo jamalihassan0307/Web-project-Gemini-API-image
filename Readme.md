@@ -73,8 +73,6 @@ AI Vision Assistant is a cutting-edge web application that combines image analys
 ### User Interface
 
 <div align="center">
-  <img src="screenshots/new_chat.png" alt="New Chat" width="400"/>
-  <img src="screenshots/new_chat1.png" alt="Chat Interface" width="400"/>
   <img src="screenshots/setting.png" alt="Settings Page" width="400"/>
   <img src="screenshots/setting1.png" alt="Advanced Settings" width="400"/>
   <img src="screenshots/profile_update.png" alt="Profile Update" width="400"/>
