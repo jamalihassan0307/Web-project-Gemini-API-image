@@ -1,30 +1,26 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
 
 export default function Welcome() {
-  const navigate = useNavigate();
+  const { user } = useAuth();
 
   return (
-    <div
-      className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center text-white"
-      style={{
-        backgroundImage: 'url("https://source.unsplash.com/1600x900/?baking")',
-      }}
-    >
-      <div className="bg-black/30 p-12 rounded-3xl backdrop-blur-sm">
-        <h1 className="text-5xl font-bold mb-6 text-center">
-          Welcome to AI Baking Assistant
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+          Welcome, {user?.username}!
         </h1>
-        <p className="text-xl mb-8 text-center">
-          Start exploring the world of AI-powered baking!
+        <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+          Get started with AI Vision Assistant
         </p>
-        <button
-          onClick={() => navigate("/chat")}
-          className="px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition
-                     transform hover:scale-105 mx-auto block"
-        >
-          Open Chat Room
-        </button>
+        <div className="mt-5 flex justify-center">
+          <Link
+            to="/chat"
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
+          >
+            Start Chatting
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -1,17 +1,14 @@
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Header from "./Header";
-import { useAuth } from "../../contexts/AuthContext";
+import Sidebar from "./Sidebar";
 
 export default function Layout() {
-  const { isAuthenticated } = useAuth();
-  const location = useLocation();
-
   return (
     <div className="min-h-screen bg-gray-50">
-      {isAuthenticated && <Header />}
-
+      <Header />
       <div className="flex">
-        <main className="flex-1">
+        <Sidebar />
+        <main className="flex-1 p-6">
           <Outlet />
         </main>
       </div>

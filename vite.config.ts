@@ -6,4 +6,15 @@ export default defineConfig({
   css: {
     postcss: "./postcss.config.cjs",
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
+  server: {
+    port: 3000,
+    host: true,
+  },
 });
