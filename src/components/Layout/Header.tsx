@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { FiSettings, FiUser, FiLogOut } from "react-icons/fi";
 import { useAuth } from "../../contexts/AuthContext";
 
@@ -35,15 +35,12 @@ export default function Header() {
 
             {showProfileMenu && (
               <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-1 z-50">
-                <button
-                  onClick={() => {
-                    navigate("/profile");
-                    setShowProfileMenu(false);
-                  }}
+                <Link
+                  to="/profile"
                   className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
                 >
                   <FiUser className="mr-2" /> Profile
-                </button>
+                </Link>
                 <button
                   onClick={() => {
                     navigate("/settings");
