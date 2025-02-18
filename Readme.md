@@ -53,29 +53,31 @@ AI Vision Assistant is a cutting-edge web application that combines image analys
 ### Home & Authentication
 
 <div align="center">
-  <img src="home.png" alt="Home Page" width="400"/>
-  <img src="login.png" alt="Login Page" width="400"/>
-  <img src="signup.png" alt="Signup Page" width="400"/>
+  <img src="screenshots/home.png" alt="Home Page" width="400"/>
+  <img src="screenshots/login.png" alt="Login Page" width="400"/>
+  <img src="screenshots/signup.png" alt="Signup Page" width="400"/>
 </div>
 
 ### Chat & Image Analysis
 
 <div align="center">
-  <img src="image_chat.png" alt="Image Chat Interface" width="400"/>
-  <img src="image_chat1.png" alt="Image Analysis" width="400"/>
-  <img src="image_chat2(Edit name).png" alt="Chat Editing" width="400"/>
-  <img src="image_chat3.png" alt="Analysis Results" width="400"/>
-  <img src="image_chat4.png" alt="Extended Analysis" width="400"/>
+  <img src="screenshots/image_chat.png" alt="Image Chat Interface" width="400"/>
+  <img src="screenshots/image_chat1.png" alt="Image Analysis" width="400"/>
+  <img src="screenshots/image_chat2(Edit name).png" alt="Chat Editing" width="400"/>
+  <img src="screenshots/image_chat(logo).png" alt="Analysis Results" width="400"/>
+  <img src="screenshots/image_chat1(logo).png" alt="Analysis Results" width="400"/>
+  <img src="screenshots/image_chat3.png" alt="Analysis Results" width="400"/>
+  <img src="screenshots/image_chat4.png" alt="Extended Analysis" width="400"/>
 </div>
 
 ### User Interface
 
 <div align="center">
-  <img src="new_chat.png" alt="New Chat" width="400"/>
-  <img src="new_chat1.png" alt="Chat Interface" width="400"/>
-  <img src="setting.png" alt="Settings Page" width="400"/>
-  <img src="setting1.png" alt="Advanced Settings" width="400"/>
-  <img src="profile_update.png" alt="Profile Update" width="400"/>
+  <img src="screenshots/new_chat.png" alt="New Chat" width="400"/>
+  <img src="screenshots/new_chat1.png" alt="Chat Interface" width="400"/>
+  <img src="screenshots/setting.png" alt="Settings Page" width="400"/>
+  <img src="screenshots/setting1.png" alt="Advanced Settings" width="400"/>
+  <img src="screenshots/profile_update.png" alt="Profile Update" width="400"/>
 </div>
 
 ## 🚀 Getting Started
