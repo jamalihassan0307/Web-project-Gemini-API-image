@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .image-choice {
+    @apply relative overflow-hidden cursor-pointer rounded-lg;
+  }
+
+  .image-choice img {
+    @apply w-full transition transform hover:scale-105;
+  }
+
+  .prompt-input {
+    @apply w-full px-4 py-3 rounded-lg border focus:ring-2 focus:ring-blue-500;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+}

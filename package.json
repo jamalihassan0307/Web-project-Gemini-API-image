@@ -1,19 +1,41 @@
 {
-  "name": "gemini-demo",
+  "name": "ai-vision-assistant",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.12.0",
+    "@google/generative-ai": "^0.1.0",
+    "@headlessui/react": "^1.7.17",
     "base64-js": "^1.5.1",
-    "markdown-it": "^13.0.2"
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.4",
+    "markdown-it": "^13.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.29.0",
+    "react-toastify": "^11.0.3",
+    "zustand": "^4.4.3"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/markdown-it": "^12.2.3",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^13.0.1",
+    "tailwindcss": "^3.2.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
   }
 }
