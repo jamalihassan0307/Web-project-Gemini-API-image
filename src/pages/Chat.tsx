@@ -8,7 +8,7 @@ import {
 import MarkdownIt from "markdown-it";
 import { FiImage, FiEdit2, FiPlus, FiMessageSquare } from "react-icons/fi";
 
-const API_KEY = "AIzaSyBdcBFODMDOZOidyb6Kj01gaE-taaoEyhM";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 interface ChatMessage {
   role: "user" | "assistant";
